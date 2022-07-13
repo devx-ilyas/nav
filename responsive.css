@@ -1,0 +1,43 @@
+
+
+@media only screen and (max-width: 864px) {
+    body {
+      background-color: lightblue;
+      
+    }
+    .mnav{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar h1{
+      font-size: 3vh;
+    }
+    .mnav ul{
+    
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+      }
+      .nav-toggle{
+        
+        cursor: pointer;
+        display: block;
+      }
+      .navbar{
+        width: 100vw;
+        padding: 4px 15px;
+        display: flex;
+        justify-content: space-between;
+      }
+      .links{
+        height: 0;
+        overflow: hidden;
+        transition: all 0.3s linear;
+      }
+      .show-links{
+        height: 7rem;
+        
+
+      }
+  }
+
